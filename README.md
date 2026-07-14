@@ -29,6 +29,4 @@ cd ../03-vector-search && tofu init && tofu apply
 
 `*.tfvars` files are gitignored — never commit account IDs, workspace URLs, or service principal secrets. All sensitive inputs are declared as Terraform variables (`sensitive = true`) and OAuth client secrets are generated manually in the Databricks account console, then stored in per-service-principal Databricks secret scopes managed by Terraform.
 
-## Related
 
-Blog post source: [`vector-search-share/blog`](../vector-search-share/blog/cross-workspace-vector-search-terraform.md)
